@@ -1,5 +1,9 @@
-def greetings():
-  nome = input('Qual é seu nome? ')
-  print(f'Olá {nome}')
+def full_name():
+  first_name = input('Qual é seu primeiro nome? ')
+  last_name = input('Qual é seu sobrenome? ')
 
-greetings()
+  my_full_name = first_name + ' ' + last_name
+
+  print(f'Olá {my_full_name}')
+
+full_name()
